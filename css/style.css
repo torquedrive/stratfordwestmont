@@ -9,15 +9,36 @@
 }
 
 body {
+    /*background-color: #aaa9a9;*/
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*.logo {
-    position: relative;
-    margin-right: 20px;
-}*/
+.logo {
+    font-size: 1.75rem;
+}
+
+.logo a {
+    text-decoration: none;
+    justify-content: center;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+.tagline {
+    display: flex;
+    font-size: 1.0rem;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.top-nav-phone {
+    font-size: 1.75rem;
+}
 
 .navagation-position {
     background-color: #000000;
@@ -53,18 +74,9 @@ a {
 
 a:hover {
     color: grey;
-    text-decoration: underline;
+    text-decoration: none;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181,181,181);
-}
-
-.logo {
-    font-size: 1.5rem;
-}
-
-.logo a {
-    text-decoration: none;
-    justify-content: center;
 }
 
 .top-nav {
@@ -72,13 +84,9 @@ a:hover {
     color:#ffffff;   
 }
 
-.logo:hover {
-    cursor: default;
-}
-
 /* HAMBURGER MENU*/
 
-
+        /* Moved to hamburger.css file*/
 
 /* Responsive header section */
 
@@ -96,7 +104,7 @@ a:hover {
 .hero {
     position: relative;
     background: url('https://images.pexels.com/photos/2570062/pexels-photo-2570062.jpeg') center/cover no-repeat;
-    height: 40vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,7 +157,34 @@ a:hover {
 
 /* Content Section */
 
+.main-head {
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
+.top-container {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.top-container > * {
+    display: flex;
+    border: 1px solid #000000;
+    border-radius: 3%;
+}
+
+.top-card {
+    /*background-color: aliceblue;*/
+    display: flex;
+    margin: 20px;
+}
 
 
 
@@ -170,5 +205,19 @@ a:hover {
         background-color: #000000;
         color: #ffffff;
         z-index: 10000;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .top-container {
+        display: block;
+        max-width: 410px;
+        align-items: center;
+        justify-content: center;
+}
+
+    .top-card {
+        
+        display: block;
     }
 }
