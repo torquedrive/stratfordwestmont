@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="desktop-nav" class="top-nav">           
+        <div class="logo">
+            <a href="index.html">Stratford Westmont LLC<br>
+            <span class="tagline">Business Capital Advisors</span></a>
+        </div>
+        <div class="top-nav-phone">856-896-9743</div>
+        <div class="navigation-position">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>  
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"><a href="index.html">Stratford Westmont</a></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Your Animated Text Goes Here</h1>
+            <p class="hero-subtitle">A brief description of your content</p>
+            <a href="#" class="hero-phone">856-896-9743</a>
+        </div>
+    </header>
+
+
+    <form class="form-box" action="https://api.web3forms.com/submit" method="POST">
+
+        <!-- REQUIRED: Your Access key here. Don't worry this can be public -->
+        <input type="hidden" name="access_key" value="3e2f7e30-d476-4ebc-b3fe-cbab646339ea">
+    
+        <!-- Optional: Subject an be prefilled using type="hidden"
+            or type="text" for normal user submitted input -->
+        <input type="hidden" name="subject" value="Lead from StratfordWestmont.com">
+    
+        <!-- Optional: From Name you want to see in the email
+            Default is "Notifications". you can overwrite here -->
+        <input type="hidden" name="from_name" value="Lead Form">
+    
+        <!-- Optional: To send the form submission as CC email
+            This feature available to PRO Plan users only -->
+        <!--<input type="hidden" name="ccemail" value="partner@example.com">-->
+    
+        <!-- Optional: Default replyto will be "email" field (if available)
+            you may overwrite replyto with different email here -->
+        <input type="hidden" name="replyto" value="sales@stratfordwestmont.com">
+    
+        <!-- Optional: Custom Redirection or Thank you Page
+            Make sure you add full URL including https:// -->
+        <input type="hidden" name="redirect" value="https://stratfordwestmont.com/success">
+    
+        <!-- Optional: But Recommended: To Prevent SPAM Submission.
+            Make sure its hidden by default -->
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        
+        
+    
+        <!-- Google reCaptcha & Cloudflare Turnstile:
+            This feature is available for paid users only -->
+        <!--<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+        <div class="cf-turnstile" data-sitekey="<YOUR_SITE_KEY>"></div>-->
+        
+        <!-- Webhooks: Send your form data to Notion, Google Sheets or Zapier.
+            This feature is available for paid users only -->
+        <!--<input type="hidden" name="webhook" value="WEBHOOK_URL_HERE" />-->
+    
+        <!-- Attachments: Make sure the <form> has enctype="multipart/form-data"
+            This feature is available for paid users only -->
+        <!--<input type="file" name="attachment" />-->
+        
+        <!-- Advanced File Upload: This feature is available for paid users only -->
+        <!--<input type="hidden" data-fileupload="true" />-->
+    
+        <!-- Custom Form Data: Form data you wish to receive in email. -->
+         <div class="form-container">
+            <div class="info-container">
+                <div class="lft-box">
+                    <div>
+                        <div>
+                            <div><label for="fname">First Name</label></div>
+                            <div><input type="text" name="First Name" size="40" required></div>
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <div>
+                            <div><label for="lname">Last Name</label></div>
+                            <div><input type="text" name="Last Name" size="40" required></div>
+                        </div>
+                        <div>
+                            <div><label for="pnum">Phone Number</label></div>
+                            <div><input type="text" name="Phone Number" size="40" required></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rgt-box">
+
+                    <div>
+                        <div>
+                            <div><label for="padd">Property Address</label></div>
+                            <div><input type="text" name="Property Address" size="40"></div>
+                        </div>
+                        <div>
+                            <div><label for="ptype">Property Type</label></div>
+                            <div><input type="text" name="Property Type:" size="40"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div><label for="lareq">Loan Amount Requested</label></div>
+                            <div><input type="text" name="Loan Amount Requested" size="40"></div>
+                        </div>
+                        <div>
+                            <div><label for="email">Email</label></div>
+                            <div><input type="email" name="email" size="40" required></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="msg-box">
+                    <div><label for="mesg">Leave a Message</label></div>
+                    <div><textarea name="message" rows="10" cols="80"></textarea></div>
+                </div>
+                <div>
+                    <!-- hCaptcha: Recommended for Advanced Spam Protection. -->
+                    <div class="h-captcha" data-captcha="true"></div>
+                </div>
+                <div class="submit-button">
+                    <button class="button" type="submit">Submit Form</button>
+                </div>
+        </div>
+    </form>
+  
+    <!-- Required only if you are using hCaptcha or Advanced File Upload. -->
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
