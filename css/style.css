@@ -186,7 +186,7 @@ a:hover {
 
 .top-container > * {
     display: flex;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
     border-radius: 3%;
 }
 
@@ -195,6 +195,86 @@ a:hover {
     display: block;
     margin: 20px;
 }
+
+.first-box {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid red;*/
+}
+
+.lft-img {
+    background: url('https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg') center/cover no-repeat;
+    width: 750px;
+    height: 40vh;
+    /*padding: 10px;*/
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /*justify-content: space-around;*/
+    /*border: 1px solid green;*/
+}
+
+.rgt-text {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    /*border: 1px solid blue;*/
+}
+
+.head-cont {
+    margin-bottom: 20px;
+}
+
+.rgt-info p {
+    margin: 20px;
+    padding: 25px;
+    max-width: 800px;
+    /*border: 1px solid #3498db;*/
+}
+
+/* Start */
+.second-box {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid red;*/
+}
+
+.rgt-img {
+    background: url('https://images.pexels.com/photos/1267348/pexels-photo-1267348.jpeg') center/cover no-repeat;
+    width: 750px;
+    height: 40vh;
+    /*padding: 10px;*/
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /*justify-content: space-around;*/
+    /*border: 1px solid green;*/
+}
+
+.lft-text {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    /*border: 1px solid blue;*/
+}
+
+.lft-info p {
+    margin: 20px;
+    padding: 25px;
+    max-width: 800px;
+    /*border: 1px solid #3498db;*/
+}
+/* End */
 
 /* Form styles */
 
@@ -259,9 +339,88 @@ button {
 
 
 
+/* End Form Styles*/
 
 
+.msg-container {
+    display: flex;
+    height: fit-content;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
+.top-msg {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-part {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cont-msg {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lft-screen {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.loan-prog {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rgt-screen {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-one {
+    display: flex;
+    font-size: 1.0rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.suc-msg {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+}
+
+.ft-box {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid red;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
