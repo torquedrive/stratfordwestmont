@@ -17,11 +17,13 @@ body {
 
 .logo {
     font-size: 1.75rem;
+    color:#ffffff;
 }
 
 .logo a {
     text-decoration: none;
     justify-content: center;
+    color:#ffffff;
 }
 
 .logo:hover {
@@ -41,10 +43,10 @@ body {
 }
 
 .hero-phone {
-    color: #383838;
+    color: #ffffff;
     font-size: 1.75rem;
     padding: 5px;
-    background-color: #aaa9a9;
+    background-color: #003a1d;
     border-radius: 5%;
 }
 
@@ -81,15 +83,19 @@ a {
 }
 
 a:hover {
-    color: grey;
+    color: #000000;
     text-decoration: none;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181,181,181);
+    text-decoration-color: rgb(181, 181, 181);
 }
 
 .top-nav {
-    background-color: #000000;
+    background-color:#032215;;
     color:#ffffff;   
+}
+
+hr {
+    color: #003a1d;
 }
 
 /* HAMBURGER MENU*/
@@ -112,7 +118,7 @@ a:hover {
 .hero {
     position: relative;
     background: url('https://images.pexels.com/photos/2570062/pexels-photo-2570062.jpeg') center/cover no-repeat;
-    height: 60vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,6 +172,8 @@ a:hover {
 /* Content Section */
 
 .main-head {
+    background-color: #032215;
+    color: #ffffff;
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
@@ -197,6 +205,7 @@ a:hover {
 }
 
 .first-box {
+    background-color: #032215;
     margin-top: 20px;
     padding: 10px;
     display: flex;
@@ -209,8 +218,8 @@ a:hover {
 .lft-img {
     background: url('https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg') center/cover no-repeat;
     width: 750px;
-    height: 40vh;
-    /*padding: 10px;*/
+    height: 55vh;
+    margin-right: 20px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -219,6 +228,7 @@ a:hover {
 }
 
 .rgt-text {
+    background-color: #ffffff;
     padding: 10px;
     text-align: center;
     align-items: center;
@@ -239,6 +249,7 @@ a:hover {
 
 /* Start */
 .second-box {
+    background-color: #032215;
     margin-top: 20px;
     padding: 10px;
     display: flex;
@@ -251,8 +262,8 @@ a:hover {
 .rgt-img {
     background: url('https://images.pexels.com/photos/1267348/pexels-photo-1267348.jpeg') center/cover no-repeat;
     width: 750px;
-    height: 40vh;
-    /*padding: 10px;*/
+    height: 55vh;
+    margin-left: 20px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -261,6 +272,7 @@ a:hover {
 }
 
 .lft-text {
+    background-color: #ffffff;
     padding: 10px;
     text-align: center;
     align-items: center;
@@ -268,7 +280,12 @@ a:hover {
     /*border: 1px solid blue;*/
 }
 
+.lft-info {
+    background-color: #ffffff;
+}
+
 .lft-info p {
+    
     margin: 20px;
     padding: 25px;
     max-width: 800px;
@@ -413,14 +430,37 @@ button {
 }
 
 .ft-box {
-    background-color: #000000;
-    color: #ffffff;
-    border: 1px solid red;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #032215;
+    color:#001058;;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.ft-info {
+    padding: 20px;
+    color:#ffffff;
+}
+
+
+.ft-head {
+    margin-bottom: 15px;
+    color:#ffffff;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
-
-
+.ft-copy {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
