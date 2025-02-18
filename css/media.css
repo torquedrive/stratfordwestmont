@@ -48,6 +48,11 @@
 }
 
 @media screen and (max-width: 420px) {
+
+    body {
+        margin: 0;
+    }
+
     .lft-img{
         display: block;
         max-width: 390px;

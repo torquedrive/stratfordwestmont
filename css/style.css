@@ -9,15 +9,21 @@
 }
 
 body {
-    /*background-color: #aaa9a9;*/
-    margin: 0;
+    background-color: #010c07;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .logo {
+    /*position: relative;*/
+    background: url('/img/logo-transparent-png01.png') center/cover no-repeat;
+    height: 140px;
+    width: 560px;
     font-size: 1.75rem;
     color:#ffffff;
+    align-items: start;
 }
 
 .logo a {
@@ -40,13 +46,14 @@ body {
 
 .top-nav-phone {
     font-size: 1.75rem;
+    margin-right: 150px;
 }
 
 .hero-phone {
+    background-color: #010c07;
     color: #ffffff;
     font-size: 1.75rem;
     padding: 5px;
-    background-color: #003a1d;
     border-radius: 5%;
 }
 
@@ -83,15 +90,17 @@ a {
 }
 
 a:hover {
-    color: #000000;
+    color: #7a7a7a;
     text-decoration: none;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
 }
 
 .top-nav {
-    background-color:#032215;;
-    color:#ffffff;   
+    /*border: 1px solid #bb8336;*/
+    background-color:#010c07;
+    color:#ffffff;  
+    height: 120px;
 }
 
 hr {
@@ -116,6 +125,7 @@ hr {
 }
 
 .hero {
+    background-color: #ffffff;
     position: relative;
     background: url('https://images.pexels.com/photos/2570062/pexels-photo-2570062.jpeg') center/cover no-repeat;
     height: 40vh;
@@ -172,18 +182,23 @@ hr {
 /* Content Section */
 
 .main-head {
-    background-color: #032215;
-    color: #ffffff;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    max-height: 8vh;
+    /*max-height: 8vh;*/
+}
+
+hr {
+    margin-top: 20px;    
+    color:#bb8336;
 }
 
 .top-container {
-    margin-top: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
     padding: 10px;
     display: flex;
     text-align: center;
@@ -199,13 +214,17 @@ hr {
 }
 
 .top-card {
-    /*background-color: aliceblue;*/
+    padding: 10px;
+    /*border: 2px solid #bb8336;
+    background-color: #010c07;*/
+    color: #000000;
     display: block;
-    margin: 20px;
+    /*margin: 20px;*/
 }
 
 .first-box {
-    background-color: #032215;
+    border: 2px solid #bb8336;
+    background-color: #ffffff;
     margin-top: 20px;
     padding: 10px;
     display: flex;
@@ -249,7 +268,8 @@ hr {
 
 /* Start */
 .second-box {
-    background-color: #032215;
+    border: 2px solid #bb8336;
+    background-color: #ffffff;
     margin-top: 20px;
     padding: 10px;
     display: flex;
@@ -430,9 +450,10 @@ button {
 }
 
 .ft-box {
+    /*border: 1px solid #bb8336;*/
     margin-top: 20px;
     padding: 20px;
-    background-color: #032215;
+    background-color: #010c07;
     color:#001058;;
     display: flex;
     text-align: center;
