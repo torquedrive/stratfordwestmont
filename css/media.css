@@ -11,6 +11,11 @@
 }
 
 @media screen and (max-width: 800px) {
+    
+    .logo {
+        margin-left: 0;
+    }
+    
     .top-container {
         display: block;
         align-items: center;
@@ -53,6 +58,10 @@
         margin: 0;
     }
 
+    .top-container {
+        display: block;
+    }
+
     .lft-img{
         display: block;
         max-width: 390px;
@@ -85,5 +94,10 @@
         margin:0;
         /*width: 0;
         height: 0;*/
+    }
+
+    .left-pad {
+        margin: 0;
+        padding: 0;
     }
 }
