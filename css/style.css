@@ -130,11 +130,11 @@ hr {
     position: relative;
     margin-top: 20px;
     /*background: url('/assets/img/panorama-city.jpg') center/cover no-repeat;*/
-    height: 40vh;
+    height: 35vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: -100;
+    z-index: 100;
 }
 
 .hero::before {
@@ -179,7 +179,7 @@ hr {
 }
 
 .hero-button:hover {
-    background-color: #2980b9;
+    background-color: #195317;
 }
 
 /* Content Section */
