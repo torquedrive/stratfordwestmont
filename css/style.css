@@ -179,7 +179,8 @@ hr {
 }
 
 .hero-button:hover {
-    background-color: #195317;
+    background-color: #333333;
+    color: #ffffff;
 }
 
 /* Content Section */
@@ -211,7 +212,7 @@ hr {
 }
 
 .top-container {
-    background-color: #ffffff;
+    background-color: #333333d8;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
@@ -232,13 +233,13 @@ hr {
     padding: 10px;
     /*border: 2px solid #bb8336;
     background-color: #010c07;*/
-    color: #000000;
+    color: #ffffff;
     display: block;
     /*margin: 20px;*/
 }
 
 .first-box {
-    background-color: #ffffff;
+    background-color: #333333;
     max-width: 900px;
     margin-top: 20px;
     margin-left: auto;
@@ -264,7 +265,7 @@ hr {
 }*/
 
 .rgt-text {
-    background-color: #ffffff;
+    background-color: #333333;
     padding: 10px;
     text-align: center;
     align-items: center;
@@ -274,10 +275,12 @@ hr {
 
 .head-cont {
     margin-bottom: 20px;
+    color: #ffffff;
 }
 
 .rgt-info {
     max-width: 800px;
+    color: #ffffff;
 }
 
 .rgt-info p {
@@ -288,6 +291,7 @@ hr {
 
 /* Start */
 .second-box {
+    background-color: #333333;
     max-width: 900px;
     margin-top: 20px;
     margin-left: auto;
@@ -314,7 +318,7 @@ hr {
 }*/
 
 .lft-text {
-    background-color: #ffffff;
+    background-color: #333333;
     padding: 10px;
     text-align: center;
     align-items: center;
@@ -323,7 +327,8 @@ hr {
 }
 
 .lft-info {
-    background-color: #ffffff;
+    background-color: #333333;
+    color: #ffffff;
 }
 
 .lft-info p {
